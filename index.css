@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 /* General Styles */
 html{
@@ -45,7 +45,7 @@ a{
     text-decoration: none;
 }
 nav{
-    padding:2% 0;
+    padding:2% 6%;
 }
 nav a{
     display: inline-block;
@@ -65,7 +65,7 @@ nav a{
 }
 .yellow {
     background-color:#FFCD69;
-    margin-right: 10%
+    margin-right: 10%;
 }
 
     /*Title section styles*/
@@ -87,11 +87,54 @@ nav a{
 }
 .right{
     width:55%;
-    margin-left: 5%;
+    margin-left: 0%;
     position: absolute;
-    top:45%;
+    top:20%;
+    color: black;
 }
-
+.right h1{
+    font-size: 6.5rem;
+}
+.right h2{
+    font-size: 2rem;
+    margin:3% 0;
+    padding: 0 10%;
+}
+.right p{
+    font-size: 2rem;
+    padding: 0 25%;
+}
+/* top section */
+.top-section{
+    background: #DDB9A3;
+    color: white;
+    text-align: center;
+    margin: 0 4%;
+    padding: .5% 2%;
+    font-size: 2rem;
+}
+.upper-paragraph{
+    margin-bottom: 1%; 
+}
+/* mid section */
+.mid-section{
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+.mid{
+    width: 20%;
+    margin: 0 auto;
+}
+.mid img{
+    width: 40%;
+}
+.top{
+    margin-bottom: 4%;  
+}
+span{
+    font-weight: bold;
+}
  /*foot section styles*/
 
  .empty{    
